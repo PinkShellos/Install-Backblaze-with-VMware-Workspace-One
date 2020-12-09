@@ -1,0 +1,15 @@
+<dict>
+    <key>PayloadIdentifier</key>
+    <string>com.airwatch.UserDetails</string>
+    <key>PayloadType</key>
+    <string>com.airwatch.UserDetails</string>
+    <key>PayloadUUID</key>
+    <string>ABCDEFGH-1234-5678-90IJ-KLMNOPQRSTUV</string>
+    <!-- Fill above with output of terminal command: uuidgen -->
+    <key>DeviceSerialNumber</key><string>{DeviceSerialNumber}</string>
+    <key>EmailAddress</key><string>{EmailAddress}</string>
+    <key>EnrollmentUser</key><string>{EnrollmentUser}</string>
+    <key>FirstName</key><string>{FirstName}</string>
+    <key>LastName</key><string>{LastName}</string>
+    <key>UserPrincipalName</key><string>{UserPrincipalName}</string>
+</dict>
