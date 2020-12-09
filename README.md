@@ -46,7 +46,7 @@ In order to use these items, assign a variable to the output of a `defaults read
 
 e.g.:
 ```bash
-email=$(defaults read "com.airwatch.UserDetails" EmailAddress)
+email=$(defaults read "/Library/Managed Preferences/com.airwatch.UserDetails" EmailAddress)
 ```
 
 Since Backblaze needs an email address to set up an account for a user at installation, we'll be using the key  `EmailAddress`.
