@@ -42,6 +42,17 @@ In a Terminal window run the command `uuidgen` and replace the string under `Pay
 
 Deploy the profile to all devices in your organization, the details can be referenced later for other potential deployments.
 
+In order to use these items, assign a variable to the output of a `defaults read` command.
+
+e.g.:
+```bash
+email=$(defaults read "com.airwatch.UserDetails" EmailAddress)
+```
+
+Since Backblaze needs an email address to set up an account for a user at installation, we'll be using the key  `EmailAddress`.
+
+
+
 ## Deploying Backblaze
 
 After the profile has deployed, use the Workspace One Admin Assistant to parse the Backblaze Installer DMG and upload to WS1 as normal.
